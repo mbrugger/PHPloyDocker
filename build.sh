@@ -1,2 +1,2 @@
 #!/bin/bash -e
-docker build -t mbrugger/docker-image-sync .
+docker build -t mbrugger/phploy .

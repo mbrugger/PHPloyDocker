@@ -1,2 +1,2 @@
 #!/bin/bash -e
-docker run --rm -v $PWD:/repository mbrugger/docker-image-sync
+docker run --rm -v $PWD:/repository mbrugger/phploy
