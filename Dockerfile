@@ -5,24 +5,15 @@ RUN apk add --update \
     ca-certificates \
     bash \
     git \
-    mercurial \
     php-bz2 \
     php-cli \
-    php-dom \
-    php-gd \
-    php-json \
     php-ftp \
     php-mcrypt \
     php-openssl \
-    php-pdo \
-    php-pear \
     php-phar \
     php-zip \
     php-ctype \
     php-zlib \
-    subversion \
-    unrar \
-    perl \
     && rm -rf /var/cache/apk/*
 
 WORKDIR /root
